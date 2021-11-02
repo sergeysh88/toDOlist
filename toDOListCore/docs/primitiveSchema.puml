@@ -2,4 +2,13 @@
 ToDoElement : id
 ToDoElement : description
 ToDoElement : status
+
+
+
+TasksCatalog --> ToDoElement : 1..N
+
+
+
+
+
 @enduml
