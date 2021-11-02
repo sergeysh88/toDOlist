@@ -1,0 +1,5 @@
+@startuml
+ToDoElement : id
+ToDoElement : description
+ToDoElement : status
+@enduml
