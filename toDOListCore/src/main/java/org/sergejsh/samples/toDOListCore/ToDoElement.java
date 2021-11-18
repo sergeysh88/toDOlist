@@ -9,7 +9,10 @@ public class ToDoElement {
         this.description = description;
         this.status=status;
     }
-
+    public ToDoElement(String description, TaskStatus status){
+        this.description = description;
+        this.status=status;
+    }
     public Integer getId() {
         return id;
     }

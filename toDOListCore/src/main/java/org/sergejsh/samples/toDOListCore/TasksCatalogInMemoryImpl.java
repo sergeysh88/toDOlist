@@ -5,10 +5,12 @@ import java.util.List;
 
 public class TasksCatalogInMemoryImpl implements TasksCatalog {
     private List<ToDoElement> memory = new ArrayList<>();
+    private Integer countID=1;
 
     //add
     public void add(ToDoElement elem) {
         memory.add(elem);
+        elem.setId(countID++);
     }
 
     //delete
