@@ -1,6 +1,8 @@
 package org.sergejsh.samples.toDOListCore;
 
-public class ToDoElement {
+import java.io.Serializable;
+
+public class ToDoElement implements Serializable {
     private Integer id;
     private String description;
     private TaskStatus status;

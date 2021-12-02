@@ -1,5 +1,7 @@
 package org.sergejsh.samples.toDOListCore;
 
-public enum TaskStatus {
+import java.io.Serializable;
+
+public enum TaskStatus implements Serializable {
     ACTIVE,DONE,LOSS
 }
